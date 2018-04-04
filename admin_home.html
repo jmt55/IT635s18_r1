@@ -1,0 +1,80 @@
+<!--
+simple HTML code below to produce King Boo picture at top and navigation slide out that is green.
+
+-->
+
+<html>
+
+<head><title> Workstation Inventory </title></head?>
+<body top margin="0">
+<p style ="text-align: center">
+  <img src="https://www.clker.com/cliparts/e/0/0/1/1284913441903733589king-boo.png" width ="154" height = "154">
+<hr color="red" />
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+</style>
+</head>
+<body>
+
+<h2>Workstation Asset Inventory </h2>
+<h3> HOME </h3>
+<p>Move the mouse over the button to open the dropdown menu.</p>
+
+<div class="dropdown">
+  <button class="dropbtn">Select Task View</button>
+  <div class="dropdown-content">
+    <a href="admin_home.html">Home</a>
+    <a href="myasset.php">My Assigned Assets</a>	
+    <a href="request_asset.php">Available Asset</a>
+    <a href="asset_form.php">Add Asset</a>
+    <a href="refreshorder.php">View Refresh Request</a>	
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
+
+

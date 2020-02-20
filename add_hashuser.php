@@ -14,7 +14,7 @@ function newUser($user, $password, $accessType, $location)
 {	
 	$dbhostname = 'localhost';
 	$dbuser = 'root';
-	$dbpassword = 'Ryder9uit';
+	$dbpassword = '';
 	$dbdatabase = 'ComputerInventory';
 
 	$db_server = mysqli_connect($dbhostname, $dbuser, $dbpassword);
